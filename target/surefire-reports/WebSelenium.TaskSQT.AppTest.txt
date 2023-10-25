@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: WebSelenium.TaskSQT.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.909 s <<< FAILURE! - in WebSelenium.TaskSQT.AppTest
+AddPatient on AddPatient(WebSelenium.TaskSQT.AppTest)(WebSelenium.TaskSQT.AppTest)  Time elapsed: 12.124 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+element click intercepted: Element <div class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input" tabindex="0" role="button" aria-haspopup="listbox" aria-labelledby="mui-component-select-gender" id="mui-component-select-gender" aria-expanded="true">...</div> is not clickable at point (560, 392). Other element would receive the click: <li class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root Mui-selected MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button Mui-selected Mui-focusVisible Mui-focusVisible" tabindex="0" role="option" aria-disabled="false" data-value="female" aria-selected="true">...</li>
+  (Session info: chrome=118.0.5993.89)
+  (Driver info: chromedriver=118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}),platform=Windows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.10 seconds
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'QKNBK2097', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58897}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, fedcm:accounts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}), userDataDir=C:\Users\SABAH~2.ANS\AppData\Local\Temp\scoped_dir6056_15133880}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=118.0.5993.89, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webauthn:extension:minPinLength=true, webauthn:extension:prf=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 03426bec61a4bbb536c29ac83be9ede1
+	at WebSelenium.TaskSQT.AppTest.PatientDetails(AppTest.java:49)
+	at WebSelenium.TaskSQT.AppTest.AddPatient(AppTest.java:33)
+
